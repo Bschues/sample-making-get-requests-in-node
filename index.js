@@ -47,9 +47,7 @@ const fetch = require("node-fetch");
 fetch("http://jservice.io/api/categories?count=1&offset=2")
   .then(response => {
     console.log(logSpacing);
-    console.log(
-      "NODE-FETCH library way of making a GET request (using .then())"
-    );
+    console.log("NODE-FETCH library way of making a GET request (using .then())");
     console.log("Status code:", response.status);
     return response.json();
   })
@@ -65,9 +63,7 @@ const fetchWithAsyncAWait = async url => {
   const hydratedBody = await response.json();
 
   console.log(logSpacing);
-  console.log(
-    "NODE-FETCH library way of making a GET request (using async/await)"
-  );
+  console.log("NODE-FETCH library way of making a GET request (using async/await)");
   console.log("Status code:", response.status);
   console.log(hydratedBody);
 };
@@ -83,9 +79,7 @@ axios
   .get("http://jservice.io/api/categories?count=1&offset=4")
   .then(response => {
     console.log(logSpacing);
-    console.log(
-      "AXIOS library way of making a GET request (using async/await)"
-    );
+    console.log("AXIOS library way of making a GET request (using async/await)");
     console.log("Status code:", response.status);
 
     // notice we can skip the .json() "hydration" step because AXIOS is doing it for us
