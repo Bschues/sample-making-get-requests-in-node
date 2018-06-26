@@ -3,7 +3,7 @@ const theRequestWay = require("./HTTPClients/requestWay.js");
 const theFetchWay_Then = require("./HTTPClients/fetchWay_Then.js");
 const theFetchWay_AsyncAwait = require("./HTTPClients/fetchWay_AsyncAwait.js");
 const theAxiosWay_Then = require("./HTTPClients/axiosWay_Then.js");
-const theAxiosWay_AsyncAwait = require("./HTTPClients/axiosWay_AsyncAwait.js").default;
+const theAxiosWay_AsyncAwait = require("./HTTPClients/axiosWay_AsyncAwait.js");
 
 const categoryURI = "http://jservice.io/api/categories?count=1&offset=";
 
