@@ -1,7 +1,7 @@
 {
-  "name": "generic_node_fetch_demo",
+  "name": "http-client-requests-in-node",
   "version": "0.0.1",
-  "description": "Just trying to make Jake and Taylor happy.",
+  "description": "Several ways to make HTTP client requests in Node.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
